@@ -30,6 +30,8 @@ df.describe()
 
 df.artists.count()
 
+**En este apartado se pudo haber utilizado cualquier columna en mi caso elegi la columna Energy
+
 - Para identificar las variables de Media se uso el comando "media = df["energy"].mean()" en este caso donde esta la palabra energy
   puede ser otra columna en mi caso elegi esa.
   
@@ -38,7 +40,13 @@ df.artists.count()
   
 - Para identificar las variables de la Varianza se uso el comando "varianza = df["energy"].var()" en este caso donde esta la palabra energy
   puede ser otra columna en mi caso elegi esa de nueva cuenta.
+  
+- Para identificar las variables de la Varianza se uso el comando "varianza = df["energy"].var()" en este caso donde esta la palabra energy
+  puede ser otra columna en mi caso elegi esa de nueva cuenta.
 
+- Para identificar las variables de la Varianza se uso el comando "varianza = df["energy"].var()" en este caso donde esta la palabra energy
+  puede ser otra columna en mi caso elegi esa de nueva cuenta.
+  
 media = df["energy"].mean()
 
 media
@@ -50,3 +58,11 @@ mediana
 varianza = df["energy"].var()
 
 varianza
+
+maximo = df["energy"].max()
+
+maximo
+
+minimo = df["energy"].min()
+
+minimo
