@@ -1,5 +1,7 @@
 # Examen_Parcial_2
 
+- Este archivo es la explicación básica de algunos comandos, en el archivo. IPYNB se encuentra con más detalle.
+
 - Primero se tendrá que importar Panda.
 
       import pandas as pd
