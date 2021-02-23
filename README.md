@@ -19,6 +19,7 @@ df.info()
   tendremos que insertar el comando "variable.tail(10)".
 
 df.head(10)
+
 df.tail(10)
 
 - los posibles datos que puedan relacionarse pienso que son "varible.describe()" que es un metodo que devuelve
@@ -26,4 +27,5 @@ df.tail(10)
   sirve para poder contar cuando informacion existe en una columna especifica en mi caso fue la columna Artistas.
 
 df.describe()
+
 df.artists.count()
