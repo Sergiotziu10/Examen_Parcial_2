@@ -48,20 +48,20 @@
   
 ***media = df["energy"].mean()***
 
-media
+media "Imprime la media"
 
 ***mediana = df["energy"].median()***
 
-mediana
+mediana "Imprime la mediana"
 
 ***varianza = df["energy"].var()***
 
-varianza
+varianza "Imprime la varianza"
 
 ***maximo = df["energy"].max()***
 
-maximo
+maximo "Imprime el valor maximo"
 
 ***minimo = df["energy"].min()***
 
-minimo
+minimo "Imprime el valor minimo"
