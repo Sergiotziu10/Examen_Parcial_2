@@ -15,4 +15,7 @@ df = pd.read_csv('Examen/data_by_artist.csv')
   
 df.info()
 
-- 
+- El siguiente comando ".head(10)" Lee las primeras 10 líneas de la tabla de artistas. si queremos que lea las 10 ultimas
+  tendremos que insertar el ".tail(10)".
+
+df.head(10)
