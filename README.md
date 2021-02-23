@@ -31,7 +31,6 @@
 ***df.artists.count()***
 
 
-**En este apartado se pudo haber utilizado cualquier columna en mi caso elegi la columna Energy**
 - Para identificar las variables de Media se uso el comando "media = df["energy"].mean()" en este caso donde esta la palabra energy
   puede ser otra columna, saca la media de una columna deseada.
   
