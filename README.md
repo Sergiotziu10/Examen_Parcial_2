@@ -49,4 +49,5 @@
       minimo = df.min()
       print (minimo)
       
-- Método estadístico que trata de modelar la relación entre una variable continua y una o más variables independientes mediante el ajuste de una ecuación lineal. en este caso se uso el comando
+- Método estadístico que trata de modelar la relación entre una variable continua y una o más variables independientes mediante el ajuste de una ecuación linel.
+La explicación de este apartado y los demas con más claridad se encuentra en el archivo.
