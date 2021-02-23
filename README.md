@@ -20,9 +20,9 @@
 
 - Los posibles datos que puedan relacionarse pienso que son "varible.describe()" que es un método que devuelve información estadística de los datos del dataframe o de la serie o bien devuelve un dataframe, y el "variable.artists.count()" sirve para poder contar cuando información existe en una columna especifica en mi caso fue la columna Artistas.
 
-***df.describe()***
+        df.describe()
 
-***df.artists.count()***
+        df.artists.count()
 
 
 - Para identificar las variables de Media se usó el comando "media = df["energy"].mean()" en este caso donde está la palabra energy puede ser otra columna, saca la media de una columna deseada.
