@@ -1,12 +1,10 @@
 # Examen_Parcial_2
 
-- Primero se tendra que importar Panda.
+- Primero se tendrá que importar Panda.
 
 ***import pandas as pd***
 
-- Seguidamente definimos una variable, para abrir el archivo directamente en un DataFrame utilizaremos
-  el comando pd.read_csv, porteriormente dentro de los parentesis llevara unas comillas para indicar la
-  ruta de dicho archivo con la extensión .CSV.
+- Seguidamente definimos una variable, para abrir el archivo directamente en un DataFrame utilizaremos el comando pd.read_csv, posteriormente dentro de los paréntesis llevara unas comillas para indicar la ruta de dicho archivo con la extensión .CSV.
   
 ***df = pd.read_csv('Examen/data_by_artist.csv')***
 
