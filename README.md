@@ -29,3 +29,15 @@ df.tail(10)
 df.describe()
 
 df.artists.count()
+
+- Para identificar las variables de media se uso el comando "media = df["energy"].mean()" en este caso donde esta la palabra energy
+  puede ser otra columna en mi caso elegi esa.
+  
+- Para identificar las variables de la mediana se uso el comando "mediana = df["energy"].median()" en este caso donde esta la palabra energy
+  puede ser otra columna en mi caso elegi esa de nueva cuenta.
+
+media = df["energy"].mean()
+media
+
+mediana = df["energy"].median()
+mediana
