@@ -35,22 +35,22 @@
 
 - Para identificar las variables del mínimo se usó el comando "mínimo = df["energy"].min()" en este caso donde está la palabra energy puede ser otra columna, indica un valor mínimo de una columna.
   
-***media = df["energy"].mean()***
+     media = df["energy"].mean()
 
-media "Imprime la media"
+     media "Imprime la media"
+        
+        mediana = df["energy"].median()
 
-***mediana = df["energy"].median()***
+        mediana "Imprime la mediana"
 
-mediana "Imprime la mediana"
+     varianza = df["energy"].var()
 
-***varianza = df["energy"].var()***
+     varianza "Imprime la varianza"
 
-varianza "Imprime la varianza"
+        maximo = df["energy"].max()
 
-***maximo = df["energy"].max()***
+        maximo "Imprime el valor maximo"
 
-maximo "Imprime el valor maximo"
+     minimo = df["energy"].min()
 
-***minimo = df["energy"].min()***
-
-minimo "Imprime el valor minimo"
+     minimo "Imprime el valor minimo"
