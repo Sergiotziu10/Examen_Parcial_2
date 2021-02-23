@@ -27,7 +27,7 @@
 
 - Para identificar las variables de Media se usó el comando "media = df["energy"].mean()" en este caso donde está la palabra energy puede ser otra columna, saca la media de una columna deseada.
   
-- Para identificar las variables de la Mediana se usó el comando "mediana = df["energy"].median()" en este caso donde está la palabra energy puede ser otra columna, relación el promedio de una columna.
+- Para identificar las variables de la Mediana se usó el comando "mediana = df["energy"].median()" en este caso donde está la palabra energy puede ser otra columna, relación a la mediana de una columna.
   
 - Para identificar las variables de la Varianza se usó el comando "varianza = df["energy"].var()" en este caso donde está la palabra energy puede ser otra columna, calcula la varianza de una columna.
   
