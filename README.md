@@ -15,7 +15,15 @@ df = pd.read_csv('Examen/data_by_artist.csv')
   
 df.info()
 
-- El siguiente comando ".head(10)" Lee las primeras 10 líneas de la tabla de artistas. si queremos que lea las 10 ultimas
-  tendremos que insertar el ".tail(10)".
+- El siguiente comando "variable.head(10)" Lee las primeras 10 líneas de la tabla de artistas. si queremos que lea las 10 ultimas
+  tendremos que insertar el comando "variable.tail(10)".
 
 df.head(10)
+df.tail(10)
+
+- los posibles datos que puedan relacionarse pienso que son "varible.describe()" que es un metodo que devuelve
+  información estadística de los datos del dataframe o de la serie o bien devuelve un dataframe, y el "variable.artists.count()"
+  sirve para poder contar cuando informacion existe en una columna especifica en mi caso fue la columna Artistas.
+
+df.describe()
+df.artists.count()
