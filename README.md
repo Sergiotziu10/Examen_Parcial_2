@@ -4,6 +4,7 @@
 
 ***import pandas as pd***
 
+
 - Seguidamente definimos una variable, para abrir el archivo directamente en un DataFrame utilizaremos el comando pd.read_csv, posteriormente dentro de los paréntesis llevara unas comillas para indicar la ruta de dicho archivo con la extensión .CSV.
   
 ***df = pd.read_csv('Examen/data_by_artist.csv')***
