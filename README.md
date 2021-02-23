@@ -14,8 +14,9 @@
 
 - El siguiente comando "variable.head(10)" Lee las primeras 10 líneas de la tabla de artistas. si queremos que lea las 10 últimas tendremos que insertar el comando "variable.tail(10)".
 
-      df.head(10)
-      df.tail(10)
+      df = df.head(10).sort_values(by='artists', ascending=True)
+      df['artists']
+      
 
 - Los posibles datos que puedan relacionarse pienso que son "varible.describe()" que es un método que devuelve información estadística de los datos del dataframe o de la serie o bien devuelve un dataframe, y el "variable.artists.count()" sirve para poder contar cuando información existe en una columna especifica en mi caso fue la columna Artistas.
 
@@ -47,3 +48,5 @@
 
       minimo = df["energy"].min()
       print (minimo)
+      
+- Método estadístico que trata de modelar la relación entre una variable continua y una o más variables independientes mediante el ajuste de una ecuación lineal. en este caso se uso el comando
