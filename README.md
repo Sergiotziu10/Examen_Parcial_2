@@ -24,29 +24,29 @@
       df.artists.count()
 
 
-- Para identificar las variables de Media se usó el comando "media = df["energy"].mean()" en este caso donde está la palabra energy puede ser otra columna, saca la media de una columna deseada.
+- Para identificar las variables de Media se usó el comando "media = df.mean()", si se quiere una columna en especifica "media = df.['columna']mean()" en este caso donde está la palabra energy puede ser otra columna, saca la media de una columna deseada.
 
-      media = df["energy"].mean()
+      media = df.mean()
       print (media)
   
-- Para identificar las variables de la Mediana se usó el comando "mediana = df["energy"].median()" en este caso donde está la palabra energy puede ser otra columna, relación a la mediana de una columna.
+- Para identificar las variables de la Mediana se usó el comando "mediana = df.median()", si se quiere una columna en especifica "mediana = df['columna'].median()"  en este caso donde está la palabra energy puede ser otra columna, relación a la mediana de una columna.
 
-      mediana = df["energy"].median()
+      mediana = df.median()
       print (mediana)
   
-- Para identificar las variables de la Varianza se usó el comando "varianza = df["energy"].var()" en este caso donde está la palabra energy puede ser otra columna, calcula la varianza de una columna.
+- Para identificar las variables de la Varianza se usó el comando "varianza = df["columna"].var()", si se quiere una columna en especifica "varianza = df['columna'].var()" en este caso donde está la palabra energy puede ser otra columna, calcula la varianza de una columna.
 
-      varianza = df["energy"].var()
+      varianza = df.var()
       print (varianza)
   
-- Para identificar las variables del máximo se usó el comando "máximo = df["energy"].max()" en este caso donde está la palabra energy puede ser otra columna, indica el valor máximo de una columna.
+- Para identificar las variables del máximo se usó el comando "máximo = df.max()", si se quiere una columna en especifica "máximo = df["columna"].max()" en este caso donde está la palabra energy puede ser otra columna, indica el valor máximo de una columna.
 
-      maximo = df["energy"].max()
+      maximo = df.max()
       print (maximo)
 
-- Para identificar las variables del mínimo se usó el comando "mínimo = df["energy"].min()" en este caso donde está la palabra energy puede ser otra columna, indica un valor mínimo de una columna.             
+- Para identificar las variables del mínimo se usó el comando "mínimo = df.min()", si se quiere una columna en especifica "mínimo = df["columna"].min()" en este caso donde está la palabra energy puede ser otra columna, indica un valor mínimo de una columna.             
 
-      minimo = df["energy"].min()
+      minimo = df.min()
       print (minimo)
       
 - Método estadístico que trata de modelar la relación entre una variable continua y una o más variables independientes mediante el ajuste de una ecuación lineal. en este caso se uso el comando
