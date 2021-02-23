@@ -26,31 +26,30 @@
 
 
 - Para identificar las variables de Media se usó el comando "media = df["energy"].mean()" en este caso donde está la palabra energy puede ser otra columna, saca la media de una columna deseada.
+
+        media = df["energy"].mean()
+
+        media "Imprime la media"
   
 - Para identificar las variables de la Mediana se usó el comando "mediana = df["energy"].median()" en este caso donde está la palabra energy puede ser otra columna, relación a la mediana de una columna.
-  
-- Para identificar las variables de la Varianza se usó el comando "varianza = df["energy"].var()" en este caso donde está la palabra energy puede ser otra columna, calcula la varianza de una columna.
-  
-- Para identificar las variables del máximo se usó el comando "máximo = df["energy"].max()" en este caso donde está la palabra energy puede ser otra columna, indica el valor máximo de una columna.
 
-- Para identificar las variables del mínimo se usó el comando "mínimo = df["energy"].min()" en este caso donde está la palabra energy puede ser otra columna, indica un valor mínimo de una columna.
-  
-     media = df["energy"].mean()
-
-     media "Imprime la media"
-        
         mediana = df["energy"].median()
 
         mediana "Imprime la mediana"
+  
+- Para identificar las variables de la Varianza se usó el comando "varianza = df["energy"].var()" en este caso donde está la palabra energy puede ser otra columna, calcula la varianza de una columna.
 
-     varianza = df["energy"].var()
+        varianza = df["energy"].var()
 
-     varianza "Imprime la varianza"
+        varianza "Imprime la varianza"
+  
+- Para identificar las variables del máximo se usó el comando "máximo = df["energy"].max()" en este caso donde está la palabra energy puede ser otra columna, indica el valor máximo de una columna.
 
         maximo = df["energy"].max()
 
         maximo "Imprime el valor maximo"
 
-     minimo = df["energy"].min()
+- Para identificar las variables del mínimo se usó el comando "mínimo = df["energy"].min()" en este caso donde está la palabra energy puede ser otra columna, indica un valor mínimo de una columna.             
 
-     minimo "Imprime el valor minimo"
+        minimo = df["energy"].min()
+        minimo "Imprime el valor minimo"
